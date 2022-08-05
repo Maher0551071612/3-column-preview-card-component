@@ -1,0 +1,86 @@
+body {  background-color: #eee;}
+
+.container { width:900px;
+             height: 500px;
+             background-color: red;
+             justify-content: center;
+             margin: 100px auto;
+             border-radius: 10px;
+             
+            display: grid;
+            grid-template-columns:33.33% 33.33% 33.35%;}
+
+
+
+   .one{ background-color:hsl(31, 77%, 52%);
+         border-radius: 5px 0 0 5px;}  
+         
+   .two { background-color:hsl(184, 100%, 22%) ;} 
+   
+   .three { background-color: hsl(179, 100%, 13%);
+            border-radius: 0 5px 5px 0 ;}
+
+
+     .photo { margin-top: 30px;
+              margin-left: 30px;}    
+              
+              
+
+       h1{ color:white;
+           margin-top: 30px;
+           margin-left: 30px;
+           font-family: 'Big Shoulders Display';
+          font-weight: 700;}   
+          
+          
+
+
+        p { color: white;
+            margin-left: 30px;
+            margin-right: 50px;
+            font-family: 'Lexend Deca', sans-serif;
+            font-weight: 400;
+            font-size: 15px;}  
+
+
+
+        .left{ width: 120px;display: grid;
+               height: 40px;
+               border-radius: 20px;
+              margin-top: 90px;
+             margin-left: 40px;
+            align-items: center;
+            justify-content: center;
+            background-color: white;
+            font-family: 'Lexend Deca', sans-serif;
+            font-size: 15px;
+            color:hsl(31, 77%, 52%);
+
+            }   
+            
+            .center{ width: 120px;display: grid;
+                height: 40px;
+                border-radius: 20px;
+               margin-top: 90px;
+              margin-left: 40px;
+             align-items: center;
+             justify-content: center;
+             background-color: white;
+             font-family: 'Lexend Deca', sans-serif;
+             font-size: 15px;
+             color:hsl(184, 100%, 22%) ; ;}
+
+
+             .right{ width: 120px;display: grid;
+                height: 40px;
+                border-radius: 20px;
+               margin-top: 90px;
+              margin-left: 40px;
+             align-items: center;
+             justify-content: center;
+             background-color: white;
+             font-family: 'Lexend Deca', sans-serif;
+             font-size: 15px;
+             color:hsl(179, 100%, 13%) ;}
+             
+             
